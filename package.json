@@ -1,0 +1,14 @@
+{
+  "name": "coin",
+  "version": "1.0.0",
+  "description": "npm install --save-dev parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
