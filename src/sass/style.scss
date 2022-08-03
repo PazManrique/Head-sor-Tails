@@ -1,46 +1,18 @@
-.coin {
-    height: 150px;
-    width: 150px;
-    position: relative;
-    margin: 50px auto;
-   
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    
-    img {
-        max-width: 145px;
-        border-radius: 50%
-    };
+@use "./coin.scss";
 
-    .joaco, .indi {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
+body {
+    background-image: url(../../public/assets/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    .container {
+        margin: 0px;
+        max-width: 50%;
+        background-image: url(../../public/assets/header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-
-    .joaco{
-        transform: rotateX(180deg);
+    h1 h2{
+        color: white;
     }
 }
-
-@keyframes spin-joaco{
-    0%{
-        transform: rotateX(0);
-    }
-    100%{
-        transform: rotateX(1980deg);
-    }
-}
-@keyframes spin-indi{
-    0%{
-        transform: rotateX(0);
-    }
-    100%{
-        transform: rotateX(2160deg);
-    }
-}
-
-

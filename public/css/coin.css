@@ -49,20 +49,5 @@
     transform: rotateX(2160deg);
   }
 }
-body {
-  background-image: url(../../public/assets/fondo2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-body .container {
-  margin: 0px;
-  max-width: 50%;
-  background-image: url(../../public/assets/header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-body h1 h2 {
-  color: white;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=coin.css.map */
