@@ -1,11 +1,3 @@
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-  margin: auto;
-}
 .container .button {
   padding-top: 15%;
 }
@@ -53,15 +45,24 @@ body {
   background-image: url(../../public/assets/fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 body .container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
   margin: 0px;
   max-width: 50%;
   background-image: url(../../public/assets/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-body h1 h2 {
+body .container #title #footer {
   color: white;
 }
 
